@@ -1,11 +1,22 @@
 * {
   width: 100vw;
   background: black;
+  overflow: hidden;
   display: grid;
   place-items: center;
-  overflow-x: hidden;
+}
+
+div {
+  width: 100%;
+  background-color: blanchedalmond;
 }
 
 h1 {
   color: white;
+  background-color: blanchedalmond;
+}
+
+Canvas {
+  width: 50%;
+  height: 50%;
 }
